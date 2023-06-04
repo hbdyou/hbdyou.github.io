@@ -24,10 +24,12 @@ body::before {
     content: "Created with 💌 Neverdie Channel";
     color: white;
     opacity: .8;
-    font-size: 13px;
+    font-size: 10px;
     position: absolute;
     bottom: 25px;
     left: calc(50vw - 72px);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);
+    z-index: 2
 }
 
 a {
